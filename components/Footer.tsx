@@ -5,7 +5,7 @@ import { HeroHighlight, Highlight } from "./ui/hero-highlight";
 
 const Footer = () => {
   return (
-    <div className="flex w-screen h-min justify-center items-center -translate-x-10 sm:-translate-x-20">
+    <div className="flex w-screen h-min justify-center items-center">
       <HeroHighlight className="h-min">
         {/* <motion.h1
           initial={{
