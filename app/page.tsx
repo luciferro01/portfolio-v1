@@ -1,4 +1,5 @@
 import Approach from "@/components/Approach";
+import Contact from "@/components/Contact";
 import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
@@ -17,6 +18,7 @@ export default function Home() {
         <Projects />
         <Experience />
         <Approach />
+        <Contact />
         <Footer />
       </div>
     </main>

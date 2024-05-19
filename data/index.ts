@@ -75,13 +75,21 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    target: "https://github.com/luciferro01",
   },
   {
     id: 2,
     img: "/twit.svg",
+    target: "https://x.com/mohil_bansl",
   },
   {
     id: 3,
     img: "/link.svg",
+    target: "https://linkedin.com/in/mohilbansal",
+  },
+  {
+    id: 4,
+    img: "/insta.svg",
+    target: "https://instagram.com/mohil_bansal",
   },
 ];
