@@ -1,9 +1,9 @@
+import Experience from "@/components/Experience";
 import Hero from "@/components/Hero";
 import Projects from "@/components/Projects";
 import TechStack from "@/components/TechStack";
 import { FloatingNav } from "@/components/ui/floating-navbar";
 import { navItems } from "@/data";
-import { FaHome } from "react-icons/fa";
 
 export default function Home() {
   return (
@@ -13,6 +13,7 @@ export default function Home() {
         <Hero />
         <TechStack />
         <Projects />
+        <Experience />
       </div>
     </main>
   );
