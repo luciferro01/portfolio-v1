@@ -1,3 +1,4 @@
+import Approach from "@/components/Approach";
 import Experience from "@/components/Experience";
 import Hero from "@/components/Hero";
 import Projects from "@/components/Projects";
@@ -14,6 +15,7 @@ export default function Home() {
         <TechStack />
         <Projects />
         <Experience />
+        <Approach />
       </div>
     </main>
   );
