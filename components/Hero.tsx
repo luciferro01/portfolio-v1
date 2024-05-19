@@ -8,7 +8,10 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <div className="relative pb-20 pt-10 sm:pt-20 w-full min-h-screen snap-y">
+    <div
+      className="relative pb-20 pt-10 sm:pt-20 w-full min-h-screen snap-y"
+      id="home"
+    >
       {/* Creating a Spotlight */}
       <div>
         <Spotlight
