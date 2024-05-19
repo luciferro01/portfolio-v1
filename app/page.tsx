@@ -1,5 +1,6 @@
 import Approach from "@/components/Approach";
 import Experience from "@/components/Experience";
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Projects from "@/components/Projects";
 import TechStack from "@/components/TechStack";
@@ -16,6 +17,7 @@ export default function Home() {
         <Projects />
         <Experience />
         <Approach />
+        <Footer />
       </div>
     </main>
   );

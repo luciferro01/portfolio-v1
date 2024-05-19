@@ -397,7 +397,7 @@ export function GlobeDemo({ otherClassName }: { otherClassName?: String }) {
 
   return (
     <div
-      className={`items-center justify-center sm:w-[60vw] h-[60vh] dark:bg-transparent relative ${otherClassName}`}
+      className={`items-center justify-center w-[60vw] h-[60vh] dark:bg-transparent relative ${otherClassName}`}
     >
       <World data={sampleArcs} globeConfig={globeConfig} />
     </div>
