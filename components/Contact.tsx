@@ -8,7 +8,7 @@ import { socialMedia } from "@/data";
 
 const Contact = () => {
   return (
-    <div className="flex flex-row w-screen text-center justify-ceter -translate-x-10 sm:-translate-x-20 ">
+    <div className="flex flex-row w-screen sm:h-screen text-center justify-ceter -translate-x-10 sm:-translate-x-20 ">
       <HeroHighlight className="w-full">
         <div className="flex flex-col sm:flex-row justify-center items-center p-10 pt-10 sm:30">
           <GlobeDemo />
@@ -28,11 +28,11 @@ const Contact = () => {
                 position="right"
               />
             </Link>
-            <p className="text-center text-purple font-bold my-2 text-lg">&</p>
+            <p className="text-center text-purple font-bold my-2 text-lg">or</p>
             <p className="text-white-200 mb-2 text-center">Follow me on</p>
             <div className="flex items-center md:gap-3 gap-6">
               {socialMedia.map((info) => (
-                <Link href={info.target} target="blank">
+                <Link href={info.target} target="blank" key={info.id}>
                   <div
                     key={info.id}
                     className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"

@@ -34,7 +34,7 @@ const Hero = () => {
       <div className="flex items-center justify-center sm:justify-between relative my-20 z-10 w-full">
         <div className=" flex flex-col w-[80vw] md:max-w-[80vw] md:flex-row items-center justify-center sm:justify-between space-y-8">
           <div className="flex flex-col md:pl-20 sm:space-y-5">
-            <p className="text-[35px] sm:text-5xl">Nice to Meet you! 👋</p>
+            <p className="text-[28px] sm:text-5xl">Nice to Meet you! 👋</p>
 
             <p className="text-[35px] sm:text-5xl">
               {"I'm "}
