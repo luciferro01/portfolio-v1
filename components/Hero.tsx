@@ -43,7 +43,7 @@ const Hero = () => {
               </span>
             </p>
             <div className="hidden sm:block">
-              <Link href="#about">
+              <Link href="#projects">
                 <MagicButton
                   title="Show my work"
                   icon={<FaLocationArrow />}
