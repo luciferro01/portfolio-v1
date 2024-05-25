@@ -1,5 +1,4 @@
 import React from "react";
-import { TextGenerateEffect } from "./ui/text-generate-effect";
 import { Spotlight } from "./ui/Spotlight";
 import Image from "next/image";
 import MagicButton from "./ui/MagicButton";
@@ -26,7 +25,7 @@ const Hero = () => {
         {/* <Spotlight className="left-80 top-28 h-[80vh] w-[50vw]" fill="blue" /> */}
       </div>
       {/* Background Grid */}
-      <div className="h-[50rem] w-full dark:bg-black-100 bg-white  dark:bg-grid-white/[0.3] bg-grid-black/[0.08] absolute flex items-center justify-center top-0 left-0">
+      <div className="h-screen w-full dark:bg-black-100 bg-white  dark:bg-grid-white/[0.3] bg-grid-black/[0.08] absolute flex items-center justify-center top-0 left-0">
         {/* Radial gradient for the container to give a faded look */}
         <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100 bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]" />
       </div>
@@ -42,7 +41,7 @@ const Hero = () => {
                 Mohil Bansal
               </span>
             </p>
-            <div className="hidden sm:block">
+            <div className="hidden sm:block ">
               <Link href="#projects">
                 <MagicButton
                   title="Show my work"
