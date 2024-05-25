@@ -4,6 +4,7 @@ import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Projects from "@/components/Projects";
+import TechStack from "@/components/TechStack";
 // import TechStack from "@/components/TechStack";
 import { FloatingNav } from "@/components/ui/floating-navbar";
 import { navItems } from "@/data";
@@ -15,7 +16,7 @@ export default function Home() {
         <div className="sm:px-10 px-5">
           <FloatingNav navItems={navItems} />
           <Hero />
-          {/* <TechStack /> */}
+          <TechStack />
           <Projects />
           <Experience />
           <Approach />

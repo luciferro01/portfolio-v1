@@ -8,7 +8,10 @@ import { socialMedia } from "@/data";
 
 const Contact = () => {
   return (
-    <div className="flex flex-row sm:h-screen text-center justify-ceter">
+    <div
+      className="flex flex-row sm:h-screen text-center justify-ceter"
+      id="contact"
+    >
       <HeroHighlight className="w-screen">
         <div className="flex flex-col xl:flex-row justify-center items-center p-10 pt-10">
           <GlobeDemo />
