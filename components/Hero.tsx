@@ -51,13 +51,23 @@ const Hero = () => {
               </Link>
             </div>
           </div>
-          <Image
+          {/* <Image
             src="/mohil_pic.jpg"
             alt="Mohil's Image"
             className="rounded-full md:h-[20%] md:w-[20%]"
             width={200}
             height={200}
-          />
+          /> */}
+          <div className="rounded-full overflow-hidden w-48 h-48 md:w-96 md:h-96">
+            <Image
+              src="/mohil_pic.jpg"
+              alt="Mohil's Image"
+              objectFit="cover"
+              width={600}
+              height={600}
+              className="rounded-full"
+            />
+          </div>
         </div>
       </div>
     </div>
