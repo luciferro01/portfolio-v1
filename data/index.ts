@@ -49,7 +49,7 @@ export const projects = [
     id: 2,
     title: "Brewery Shop",
     des: "Simplified yet amazing Coffee Shop App built on the top of React Native featuring persistent storage, animations and reactive state management using Zustand",
-    img: "/p2.svg",
+    img: "/mocks/brewery_shop_mock_up.avif",
     iconLists: ["/re.svg", "/expo.svg", "/tail.svg", "/ts.svg", "/z.svg"],
     link: "https://github.com/luciferro01/",
   },
@@ -65,7 +65,7 @@ export const projects = [
     id: 4,
     title: "SPD - Super App",
     des: "Combining multiple daily life apps into a single application while using Flutter, Firebase and GetX",
-    img: "/p4.svg",
+    img: "/mocks/spd_mock_up.avif",
     iconLists: [
       "/flutter.svg",
       "/firebase.svg",
