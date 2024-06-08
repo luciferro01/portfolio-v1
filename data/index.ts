@@ -41,7 +41,7 @@ export const projects = [
     id: 1,
     title: "Airbnb Clone",
     des: "Designed using React Native using Maps API, dynamic data from places API and effectively managing state using Zustand",
-    img: "/p1.svg",
+    img: "/mocks/airbnb_mock_up.avif",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/maps.svg", "/clerk.svg"],
     link: "https://github.com/luciferro01/",
   },

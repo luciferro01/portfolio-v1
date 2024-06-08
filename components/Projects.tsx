@@ -1,8 +1,14 @@
 import React from "react";
-import { FaLocationArrow } from "react-icons/fa";
+import {
+  FaGithub,
+  FaGithubAlt,
+  FaGithubSquare,
+  FaLocationArrow,
+} from "react-icons/fa";
 import { PinContainer } from "./ui/Pin";
 import { projects } from "@/data";
 import Image from "next/image";
+import { FaSquareGithub } from "react-icons/fa6";
 
 const Projects = () => {
   return (
@@ -17,7 +23,7 @@ const Projects = () => {
             className="sm:h-[41rem] h-[32rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[570px] w-[80vw]"
             key={item.id}
           >
-            <PinContainer title="Visit Site" href={item.link}>
+            <PinContainer title="Visit GitHub" href={item.link}>
               <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:h-[40vh] h-[30vh] mb-10">
                 <Image
                   layout="fill"
@@ -59,9 +65,9 @@ const Projects = () => {
 
                 <div className="flex justify-center items-center">
                   <p className="flex lg:text-xl md:text-xs text-sm text-purple">
-                    Check Live Site
+                    GitHub
                   </p>
-                  <FaLocationArrow className="ms-3" color="#CBACF9" />
+                  <FaGithub className="ms-3" color="#CBACF9" />
                 </div>
               </div>
             </PinContainer>
