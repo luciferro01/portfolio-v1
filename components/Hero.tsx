@@ -62,7 +62,7 @@ const Hero = () => {
             <Image
               src="/mohil_pic.jpg"
               alt="Mohil's Image"
-              objectFit="cover"
+              // objectFit="cover"
               width={600}
               height={600}
               className="rounded-full"

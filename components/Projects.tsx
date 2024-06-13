@@ -1,15 +1,8 @@
 import React from "react";
-import {
-  FaGithub,
-  FaGithubAlt,
-  FaGithubSquare,
-  FaLocationArrow,
-} from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 import { PinContainer } from "./ui/Pin";
 import { projects } from "@/data";
 import Image from "next/image";
-import { FaSquareGithub } from "react-icons/fa6";
-
 const Projects = () => {
   return (
     <div className="py-20 mt-auto" id="projects">
@@ -27,10 +20,18 @@ const Projects = () => {
               <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:h-[40vh] h-[30vh] mb-10">
                 <Image
                   layout="fill"
+                  // style={{
+                  //   width: "auto",
+                  //   objectFit: "contain",
+                  //   height: "auto",
+                  //   position: "absolute",
+                  // }}
                   objectFit="contain"
+                  // width={200}
+                  // height={200}
                   src={item.img}
                   alt="contain"
-                  className="absolute bottom-0"
+                  // className="w-auto object-contain"
                 />
               </div>
 
@@ -58,7 +59,13 @@ const Projects = () => {
                         transform: `translateX(-${5 * index + 2}px)`,
                       }}
                     >
-                      <img src={icon} alt="icon5" className="p-2" />
+                      <Image
+                        width={100}
+                        height={100}
+                        src={icon}
+                        alt="icon5"
+                        className="p-2"
+                      />
                     </div>
                   ))}
                 </div>

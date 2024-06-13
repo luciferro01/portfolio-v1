@@ -57,7 +57,7 @@ export const projects = [
     id: 3,
     title: "Brain Boost",
     des: "A REAL Software-as-a-Service app developed using React Native and GraphQL with Clerk Authentication",
-    img: "/p3.svg",
+    img: "/mocks/brewery_shop_mock_up.avif",
     iconLists: ["/re.svg", "/expo.svg", "/tail.svg", "/ts.svg", "/clerk.svg"],
     link: "/https://github.com/luciferro01/",
   },
