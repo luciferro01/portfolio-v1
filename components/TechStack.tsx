@@ -148,7 +148,7 @@ const TechStack = () => {
           height={50}
         />
       </div> */}
-        <div className="w-6/12 flex justify-center items-center">
+        <div className="md:w-6/12 h-96 flex justify-center items-center relative">
           <span className="pointer-events-none whitespace-pre-wrap bg-gradient-to-b from-black to-gray-300/80 bg-clip-text text-center text-8xl font-semibold leading-none text-transparent dark:from-white dark:to-slate-900/10">
             Tech 🧑‍💻
           </span>
@@ -159,7 +159,12 @@ const TechStack = () => {
             delay={20}
             radius={80}
           >
-            <Image src={"/firebase.svg"} alt="Flutter" width={25} height={25} />
+            <Image
+              src={"/firebase.svg"}
+              alt="Firebase"
+              width={25}
+              height={25}
+            />
           </OrbitingCircles>
           <OrbitingCircles
             className="h-[40px] w-[40px] border-none bg-transparent"
@@ -167,33 +172,44 @@ const TechStack = () => {
             delay={10}
             radius={80}
           >
-            <Image src={"/expo.svg"} alt="Flutter" width={20} height={20} />
+            <Image
+              src={"/appwrite.svg"}
+              alt="Appwrite"
+              width={20}
+              height={20}
+            />
           </OrbitingCircles>
 
           {/* Outer Circles (reverse) */}
           <OrbitingCircles
             className="h-[50px] w-[50px] border-none bg-transparent"
             reverse
-            radius={190}
+            radius={160}
             duration={20}
           >
-            <Image src={"/flutter.svg"} alt="Flutter" width={30} height={30} />
+            <Image
+              src={"/flutter.svg"}
+              alt="Flutter 🔥"
+              width={30}
+              height={30}
+            />
           </OrbitingCircles>
           <OrbitingCircles
             className="h-[50px] w-[50px] border-none bg-transparent"
             reverse
-            radius={190}
+            radius={160}
             duration={20}
             delay={40}
           >
             <Image
               src={"/next-logo.svg"}
-              alt="Flutter"
+              alt="Next Js"
               width={35}
               height={35}
             />
           </OrbitingCircles>
         </div>
+
         <div className="w-full px-2 text-center flex flex-col mt-32 sm:mt-0 md:px-0 md:w-6/12">
           {/* <p className="flex justify-center text-3xl font-semibold">
             TECH STACK

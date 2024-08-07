@@ -1,8 +1,11 @@
 import React from "react";
-import { FaGithub } from "react-icons/fa";
+import { FaGithub, FaLocationArrow } from "react-icons/fa";
 import { PinContainer } from "./ui/Pin";
 import { projects } from "@/data";
 import Image from "next/image";
+import MagicButton from "./ui/MagicButton";
+import { GiTBrick } from "react-icons/gi";
+import Link from "next/link";
 const Projects = () => {
   return (
     <div className="py-20 mt-auto" id="projects">
@@ -80,6 +83,16 @@ const Projects = () => {
             </PinContainer>
           </div>
         ))}
+      </div>
+
+      <div className="flex justify-center text-xl mt-10">
+        <Link href="https://github.com/luciferro01" target="blank">
+          <MagicButton
+            title="A lot more on GitHub..."
+            icon={<FaLocationArrow />}
+            position="right"
+          />
+        </Link>
       </div>
     </div>
   );
