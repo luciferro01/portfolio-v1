@@ -2,7 +2,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import dynamic from "next/dynamic";
-import { div } from "three/examples/jsm/nodes/Nodes.js";
+// import { div } from "three/examples/jsm/nodes/Nodes.js";
 
 const World = dynamic(() => import("./Globe").then((m) => m.World), {
   ssr: false,
