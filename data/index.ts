@@ -43,7 +43,7 @@ export const projects = [
     des: "Designed using React Native using Maps API, dynamic data from places API and effectively managing state using Zustand",
     img: "/mocks/airbnb_mock_up.avif",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/maps.svg", "/clerk.svg"],
-    link: "https://github.com/luciferro01/",
+    link: "https://github.com/luciferro01/airbnb",
   },
   {
     id: 2,
@@ -51,7 +51,7 @@ export const projects = [
     des: "Simplified yet amazing Coffee Shop App built on the top of React Native featuring persistent storage, animations and reactive state management using Zustand",
     img: "/mocks/brewery_shop_mock_up.avif",
     iconLists: ["/re.svg", "/expo.svg", "/tail.svg", "/ts.svg", "/z.svg"],
-    link: "https://github.com/luciferro01/",
+    link: "https://github.com/luciferro01/Brewery-Shop",
   },
   {
     id: 3,
@@ -59,7 +59,7 @@ export const projects = [
     des: "A REAL Software-as-a-Service app developed using React Native and GraphQL with Clerk Authentication",
     img: "/mocks/brewery_shop_mock_up.avif",
     iconLists: ["/re.svg", "/expo.svg", "/tail.svg", "/ts.svg", "/clerk.svg"],
-    link: "/https://github.com/luciferro01/",
+    link: "https://github.com/luciferro01/brainboost",
   },
   {
     id: 4,
@@ -73,7 +73,7 @@ export const projects = [
       "/chatgpt.svg",
       // "/gsap.svg",
     ],
-    link: "/https://github.com/luciferro01/",
+    link: "https://github.com/luciferro01/spd",
   },
 ];
 
