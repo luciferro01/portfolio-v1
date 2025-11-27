@@ -8,32 +8,22 @@ export const navItems = [
 export const workExperience = [
   {
     id: 1,
-    title: "Full Stack Intern - Clickzy Creative Technologies",
-    desc: "Led the dev of a mobile app and developed mobile app for both iOS & Android platforms using Flutter",
+    title: "SDE I - Quinbay Technologies",
+    desc: "Building scalable solutions including Unified Loyalty Points system (1.5x retention), Purchase with Purchase feature (2x sales), and real-time Second Screen POS with 200ms latency",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
+    isCurrent: true,
+    duration: "Jan 2025 - Present",
   },
   {
     id: 2,
-    title: "Full Stack Developer - The Intern Bay",
-    desc: "Designed and Developed a web & app based platform using Flutter and launched on play store",
+    title: "Flutter Full Stack Developer - Clickzy Creative Technologies",
+    desc: "Drove 20 Crore valuation increase by leading app & IoT development. Optimized load time from 8s to 4s using Flutter and Appwrite",
     className: "md:col-span-2",
     thumbnail: "/exp2.svg",
+    isCurrent: false,
+    duration: "May 2024 - Aug 2024",
   },
-  {
-    id: 3,
-    title: "Backend Intern - Traiksha Automation",
-    desc: "Designed the backend API using Mulesoft and Anypoint Studio, enhanced the existing API's",
-    className: "md:col-span-2",
-    thumbnail: "/exp3.svg",
-  },
-  // {
-  //   id: 4,
-  //   title: "Freelancer",
-  //   desc: "Developed and maintained user-facing features using modern frontend technologies.",
-  //   className: "md:col-span-2",
-  //   thumbnail: "/exp4.svg",
-  // },
 ];
 
 export const projects = [

@@ -37,10 +37,20 @@ const Experience = () => {
                 className="lg:w-32 md:w-20 w-16"
               />
               <div className="lg:ms-5">
-                <h1 className="text-start text-xl md:text-2xl font-bold overflow-ellipsis line-clamp-1">
-                  {card.title}
-                </h1>
-                <p className="text-start text-white-100 mt-3 font-semibold">
+                <div className="flex items-center gap-3">
+                  <h1 className="text-start text-xl md:text-2xl font-bold overflow-ellipsis line-clamp-1">
+                    {card.title}
+                  </h1>
+                  {card.isCurrent && (
+                    <span className="px-3 py-1 text-xs font-semibold rounded-full bg-green-500/20 text-green-400 border border-green-500/30 animate-pulse">
+                      Current
+                    </span>
+                  )}
+                </div>
+                <p className="text-start text-purple text-sm mt-1 font-medium">
+                  {card.duration}
+                </p>
+                <p className="text-start text-white-100 mt-2 font-semibold">
                   {card.desc}
                 </p>
               </div>

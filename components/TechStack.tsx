@@ -8,32 +8,24 @@ const TechStack = () => {
       title: "Languages",
       items: [
         {
-          src: "https://img.shields.io/badge/Dart-000?style=for-the-badge&logo=dart",
-          alt: "Dart",
-        },
-        {
           src: "https://img.shields.io/badge/Java-000?style=for-the-badge&logo=openjdk",
           alt: "Java",
         },
         {
-          src: "https://img.shields.io/badge/C++-000?style=for-the-badge&logo=c%2B%2B",
-          alt: "C++",
+          src: "https://img.shields.io/badge/Kotlin-000?style=for-the-badge&logo=kotlin",
+          alt: "Kotlin",
         },
         {
-          src: "https://img.shields.io/badge/HTML5-000?style=for-the-badge&logo=html5",
-          alt: "HTML5",
-        },
-        {
-          src: "https://img.shields.io/badge/CSS3-000?style=for-the-badge&logo=css3",
-          alt: "CSS3",
+          src: "https://img.shields.io/badge/Dart-000?style=for-the-badge&logo=dart",
+          alt: "Dart",
         },
         {
           src: "https://img.shields.io/badge/JavaScript-000?style=for-the-badge&logo=javascript",
           alt: "JavaScript",
         },
         {
-          src: "https://img.shields.io/badge/Markdown-000?style=for-the-badge&logo=markdown",
-          alt: "Markdown",
+          src: "https://img.shields.io/badge/TypeScript-000?style=for-the-badge&logo=typescript",
+          alt: "TypeScript",
         },
       ],
     },
@@ -45,60 +37,34 @@ const TechStack = () => {
           alt: "Flutter",
         },
         {
-          src: "https://img.shields.io/badge/-NextJS-000?style=for-the-badge&logo=next.js",
-          alt: "NextJS",
-        },
-        {
-          src: "https://img.shields.io/badge/-ReactJS-000?style=for-the-badge&logo=react",
-          alt: "ReactJS",
+          src: "https://img.shields.io/badge/Jetpack_Compose-000?style=for-the-badge&logo=jetpackcompose",
+          alt: "Jetpack Compose",
         },
         {
           src: "https://img.shields.io/badge/React_Native-000?style=for-the-badge&logo=react",
           alt: "React Native",
         },
-      ],
-    },
-    {
-      title: "CSS Frameworks/ Library",
-      items: [
         {
-          src: "https://img.shields.io/badge/Tailwind_CSS-000?style=for-the-badge&logo=tailwind-css",
-          alt: "Tailwind CSS",
+          src: "https://img.shields.io/badge/Android-000?style=for-the-badge&logo=android",
+          alt: "Android",
         },
         {
-          src: "https://img.shields.io/badge/Bootstrap-000?style=for-the-badge&logo=bootstrap",
-          alt: "Bootstrap",
+          src: "https://img.shields.io/badge/Spring_Boot-000?style=for-the-badge&logo=springboot",
+          alt: "Spring Boot",
         },
         {
-          src: "https://img.shields.io/badge/Shadcn-000?style=for-the-badge&logo=shadcnui",
-          alt: "Shadcn",
-        },
-      ],
-    },
-    {
-      title: "Database",
-      items: [
-        {
-          src: "https://img.shields.io/badge/Firebase-000?style=for-the-badge&logo=firebase",
-          alt: "Firebase",
-        },
-        {
-          src: "https://img.shields.io/badge/MongoDB-000?style=for-the-badge&logo=mongodb",
-          alt: "MongoDB",
-        },
-        {
-          src: "https://img.shields.io/badge/Appwrite-000?style=for-the-badge&logo=appwrite",
-          alt: "Appwrite",
-        },
-        {
-          src: "https://img.shields.io/badge/Sqlite-000?style=for-the-badge&logo=sqlite",
-          alt: "SQLite",
+          src: "https://img.shields.io/badge/-NextJS-000?style=for-the-badge&logo=next.js",
+          alt: "NextJS",
         },
       ],
     },
     {
       title: "Backend",
       items: [
+        {
+          src: "https://img.shields.io/badge/Spring_Boot-000?style=for-the-badge&logo=springboot",
+          alt: "Spring Boot",
+        },
         {
           src: "https://img.shields.io/badge/Node.js-000?style=for-the-badge&logo=node.js",
           alt: "Node.js",
@@ -107,19 +73,52 @@ const TechStack = () => {
           src: "https://img.shields.io/badge/Bun.js-000?style=for-the-badge&logo=bun",
           alt: "Bun.js",
         },
+      ],
+    },
+    {
+      title: "Database",
+      items: [
         {
-          src: "https://img.shields.io/badge/Express.js-000?style=for-the-badge&logo=express",
-          alt: "Express.js",
+          src: "https://img.shields.io/badge/PostgreSQL-000?style=for-the-badge&logo=postgresql",
+          alt: "PostgreSQL",
         },
         {
-          src: "https://img.shields.io/badge/Next-000?style=for-the-badge&logo=next.js",
-          alt: "Next.js",
+          src: "https://img.shields.io/badge/MySQL-000?style=for-the-badge&logo=mysql",
+          alt: "MySQL",
+        },
+        {
+          src: "https://img.shields.io/badge/MongoDB-000?style=for-the-badge&logo=mongodb",
+          alt: "MongoDB",
+        },
+        {
+          src: "https://img.shields.io/badge/Redis-000?style=for-the-badge&logo=redis",
+          alt: "Redis",
+        },
+        {
+          src: "https://img.shields.io/badge/Firebase-000?style=for-the-badge&logo=firebase",
+          alt: "Firebase",
+        },
+        {
+          src: "https://img.shields.io/badge/Appwrite-000?style=for-the-badge&logo=appwrite",
+          alt: "Appwrite",
+        },
+        {
+          src: "https://img.shields.io/badge/Supabase-000?style=for-the-badge&logo=supabase",
+          alt: "Supabase",
         },
       ],
     },
     {
-      title: "Version Control",
+      title: "Tools & Technologies",
       items: [
+        {
+          src: "https://img.shields.io/badge/AWS-000?style=for-the-badge&logo=amazonwebservices",
+          alt: "AWS",
+        },
+        {
+          src: "https://img.shields.io/badge/Docker-000?style=for-the-badge&logo=docker",
+          alt: "Docker",
+        },
         {
           src: "https://img.shields.io/badge/Git-000?style=for-the-badge&logo=git",
           alt: "Git",

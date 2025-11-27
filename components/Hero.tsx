@@ -42,7 +42,7 @@ const Hero = () => {
               </span>
             </p>
             <div className="text-center md:text-left my-7 md:my-0">
-              <Link href="https://drive.google.com/uc?export=download&id=1n8xj56Wy8lfFPpMxSnf5DOqDRQZFyzms">
+              <Link href="https://drive.google.com/uc?export=download&id=1A6m6mwX_Yyr-vfiAaArNMPF3M7m0qu34">
                 <MagicButton
                   title="Download Resume"
                   icon={<FaLocationArrow />}
